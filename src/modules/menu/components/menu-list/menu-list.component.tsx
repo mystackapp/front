@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import pizzaMenu from "@app/mocks/pizza.json";
-import { MenuItem } from "../menu-item/menu-item.component";
+import { MenuItem } from "@app/modules/menu/components/menu-item/menu-item.component";
 
 export const MenuList: FC = () => (
   <div className="flex flex-wrap gap-10">

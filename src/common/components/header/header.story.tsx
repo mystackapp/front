@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Header } from "./header.component";
+import { Header } from "@app/common/components/header/header.component";
 
 const HeaderStory: ComponentMeta<typeof Header> = {
   title: "Common/Header",

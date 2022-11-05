@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { MenuItem } from "./menu-item.component";
+import { MenuItem } from "@app/modules/menu/components/menu-item/menu-item.component";
 
 const MenuItemStory: ComponentMeta<typeof MenuItem> = {
   title: "Menu/MenuItem",
